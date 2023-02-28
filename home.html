@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新一代設計展-Home</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/fontawesome.css">
+</head>
+<style>
+html{
+    background-color:rgb(212, 212, 212);
+}
+body{
+        height: 1280px;
+    width: 1920px;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-around px-5" style="background-color: #e4e0e0;">
+        <div class="navbar-brand"><img style="height: 100px;" src="./53LOGO.png"></div>
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+               <a href="home.html" class="nav-link">Home</a> 
+            </li>
+            <li class="nav-item">
+              <a href="news.html" class="nav-link">News</a>
+            </li>
+            <li class="nav-item">
+               <a href="discover.html" class="nav-link">Discover</a>
+            </li>
+            <li class="nav-item">
+               <a href="tickets.html" class="nav-link">Tickets</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div id="Slider"  class="carousel slide my-2 mx-auto" data-ride="carousel" style="width:1000px;height:300px">
+            <div class="carousel-inner h-100">
+                <div class="carousel-item active">
+                    <img src="./img/game1.png" alt="game1.png" class="d-block w-100 h-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/game2.png" alt="game2.png" class="d-block w-100 h-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/game3.png" alt="game3.png" class="d-block w-100 h-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/game4.png" alt="game4.png" class="d-block w-100 h-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" data-target="#Slider" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-target="#Slider" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </main>
+    <footer class="fixed-bottom py-3 w-100 text-center">Copyright © 2023 YODEX All Rights Reserved</footer>
+<script src="./JS/jquery.js"></script>
+<script src="./JS/bootstrap.js"></script>
+</body>
+</html>
