@@ -12,7 +12,6 @@
         alert("驗證碼錯誤，請重新輸入")
         location.href="tickets.html";
     </script>
-
 <?php
     }
 ?>
